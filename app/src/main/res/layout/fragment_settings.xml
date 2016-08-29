@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F2F2F2"
@@ -21,12 +22,24 @@
         android:id="@+id/my_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我的信息"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:padding="@dimen/activity_horizontal_margin"
         android:background="@color/common_bg"
+        android:drawableRight="@drawable/workspace_item_navi"
         android:gravity="center_vertical"
-        android:drawableRight="@drawable/workspace_item_navi"/>
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="我的信息" />
+
+    <com.example.ihealthtek.ipoctchattest.common.ColumnInfoFollowRadioButtonView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom:radio1="1"
+        custom:radio2="2"
+        custom:radio4="4"
+        custom:radio5="5"
+        custom:titleleft="left"
+        custom:titleshowradio4="true"
+        custom:titleshowradio5="true"
+        custom:titleshowstar="true" />
 
     <Button
         android:id="@+id/btn_logout"

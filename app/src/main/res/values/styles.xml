@@ -13,4 +13,29 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+
+    <declare-styleable name="columnView">
+        <attr name="titleText" format="string" />
+        <attr name="titleleft" format="string" />
+        <attr name="titlemid" format="string" />
+        <attr name="titleright" format="string" />
+        <attr name="titlerighthint" format="string" />
+        <attr name="titleleftcolor" format="color" />
+        <attr name="titlerightcolor" format="color" />
+        <attr name="titlerighthintcolor" format="color" />
+        <attr name="radio1" format="string" />
+        <attr name="radio2" format="string" />
+        <attr name="radio3" format="string" />
+        <attr name="radio4" format="string" />
+        <attr name="radio5" format="string" />
+        <attr name="radio6" format="string" />
+        <attr name="titleshowstar" format="boolean" />
+        <attr name="titleshownev" format="boolean" />
+        <attr name="titleshowradio3" format="boolean" />
+        <attr name="titleshowradio4" format="boolean" />
+        <attr name="titleshowradio5" format="boolean" />
+        <attr name="titleshowradio6" format="boolean" />
+        <attr name="left_image_src" format="reference" />
+        <attr name="maxlength" format="integer" />
+    </declare-styleable>
 </resources>
